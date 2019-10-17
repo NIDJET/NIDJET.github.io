@@ -1,0 +1,58 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	color: azure;
+	background: #123544;
+	font-size: 1em;
+	font-family: "Segoe UI",sans-serif;
+	line-height: 135%;
+}
+
+a:hover{
+    color: brown;
+    text-decoration: none;
+    transition: all.6s ease;
+    -moz-transition: all.6s ease;
+    -wedkit-transition: all.6s ease;
+    -ms-transition: all.6s ease;
+    
+
+}
+a:active {color: darkorange}
+
+img{
+    max-width: 100%;
+    height: auto;
+    width: auto/9;
+}
+
+/*Блок для выделения*/
+
+::selection{background-color: darkmagenta; color: aliceblue}
+::-moz-selection {background-color: darkmagenta; color: aliceblue}
+
+header, footer{
+	width: 100%;
+	background-color:#123544;
+	min-height: 50px;
+}
+
+header{
+	border-bottom: 2px solid silver;
+}
+
+#logo{
+    font-size: 1.3e;
+    font-family: Comic Sans MS, sans-serif;
+}
+
+footer{
+	border-top: 2px solid silver;
+	margin-top: 10px;
+}
